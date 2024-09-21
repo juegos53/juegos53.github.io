@@ -1,0 +1,31 @@
+body {
+    background-color: #1c1c1c; /* Fondo con el color especificado */
+    color: rgb(136, 197, 110); /* Color de texto blanco */
+    margin: 0; /* Sin márgenes */
+    height: 100vh; /* Altura completa de la ventana */
+    font-family: Arial, sans-serif; /* Fuente */
+}
+
+.game {
+    margin-bottom: 20px; /* Espacio entre juegos */
+    text-align: center; /* Centrar texto e imagen */
+}
+
+img {
+    width: 200px; /* Ajustar el tamaño de la imagen */
+    height: auto; /* Mantener proporciones */
+    border-radius: 10px; /* Bordes redondeados */
+}
+.header {
+    background-color: #333; /* Color de fondo de la barra */
+    padding: 15px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    position: fixed; /* Fija la barra en la parte superior */
+    top: 0; /* Posición en la parte superior */
+    width: 100%; /* Ancho completo */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+.spacer {
+    height: 300px; /* Altura del espacio vacío */
+    background-color: transparent; /* Color de fondo transparente */
+}
